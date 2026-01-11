@@ -1,8 +1,6 @@
 # logic-to-forge
 An LLM-backed agent that converts natural language to Forge using an intermediate representation in Python.
 
-Currently in the process of migrating to this repository. View the current working repository [here](https://github.com/michaeltu01/polymath).
-
 ## Architecture
 ### 1. Natural Language -> Solution Format
 The first step is to prompt the LLM to generate the solution format of the given [Zebra Logic Puzzle](https://www.puzzles.wiki/wiki/Zebra_Puzzle). This is the template in which the instance produce by the Forge model will be transformed into.
